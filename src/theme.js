@@ -192,6 +192,7 @@ export const themeSettings = (mode) => {
   };
 };
 
+// sử dụng thư viện dark mode của material
 // context for color mode
 export const ColorModeContext = createContext({
   toggleColorMode: () => {},
